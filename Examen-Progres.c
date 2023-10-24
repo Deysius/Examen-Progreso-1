@@ -8,7 +8,8 @@ scanf ("%d",&num);
 //Inicializo mis variables, y solicito al usuario que ingrese el valor de una de las variables
 while (hexadecimal<num)
 {
+contador=contador+1;
+hexadecimal=16*contador;
 }
-printf ("%dD",contador);
 return 0;
 }
