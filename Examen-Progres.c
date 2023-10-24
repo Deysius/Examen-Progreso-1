@@ -11,6 +11,7 @@ while (hexadecimal<num)
 {
 contador=contador+1;
 hexadecimal=16*contador;
+//Inicializo un contador, en el cual se va sumando de uno en uno, y multiplicando por 16 hasta que el numero resultante sea mayor al numero ingresado
 }
 if (hexa*contador==num)
 {
@@ -18,6 +19,8 @@ if (hexa*contador==num)
 }
 else
 contador=contador-1;
+//Mediante un ifelse comparo que le numero dado sea igual al numero ingresado, si es el caso el contador permanece igual, en caso de que no sea igual se resta uno al contador
+
 printf("%dD",contador);
 return 0;
 }
